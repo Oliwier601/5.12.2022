@@ -11,7 +11,8 @@ namespace ConsoleApp1
     {
         private string marka;
         private string model;
-        private int ilosc_ram
+        private int ilosc_ram;
+        public int nowa_ilosc_ram
         {
             get { return ilosc_ram; } 
             set {ilosc_ram = value; }
